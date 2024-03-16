@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redirected Page</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .paragraph {
+            font-family: cursive;
+            font-size: 20px;
+            color: black;
+            text-align: center;
+            line-height: 1.5;
+        }
+    </style>
+    <script>
+        var set = window.onload;
+
+        function checktest() {
+            var test = prompt("Please enter the password:");
+            if (test !== "2862") {
+                set = checktest;
+            } else {
+                var paragraph = "<div>Hello!</div><div>Welcome to the journey of urs.</div><div>It is not a story that is fictional or imagination.</div><div>It is the story of uh, the story of me and the story of US.</div><div>It has the moments of US, the good and the bad ❌.</div><div>The good in the bad.</div><div>Yes, the good in the bad.</div><div>In this journey, throughout knowing or unknowing, uh taught me many things that I didn't know, and maybe this was the best part of learning of my life.</div><div>You are the best part of learning in my life.</div><div>As there is a saying, life is a journey of learning mistakes.</div><div>I have learned my mistakes through love, care, and affection by you ❤️.</div><div>And I am sure even if I have learned these through someone else or some other situations, trust me, this wouldn't be this beautiful.</div><div>Thank you for being with me and traveling throughout the beautiful chapters of my life ✨.</div><div>This book is written to go back to the journey of ours and walking through it again at a glance.</div><div>Remembering all the moments and cherishing them.</div><div>I have been going to all of them while I was writing and enjoyed each and every moment of us.</div><div>Each chapter, each page, each line, each sentence, each word brought a smile on my face and I enjoyed every moment over and over.</div><div>So are you ready to go through our journey once again?</div><div>You are my endless thoughts that don't leave my brain alone.</div><div>There are no full stops in this journey and the words I could express for you.</div><div>But this is just to remind you that all the moments with you are just beautiful the way they happened with no regrets.</div><div>Thank you so much for this beautiful journey!</div><div>You're the most memorable chapter of my life, Akki Ammmaaa! ✨❤️</div>";
+
+
+                document.body.innerHTML = '<div class="paragraph">' + paragraph + '</div>';
+            }
+        }
+        window.onload = checktest;
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>
